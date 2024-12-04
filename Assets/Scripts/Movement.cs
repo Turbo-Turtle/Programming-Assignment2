@@ -1,17 +1,20 @@
+using System;
+using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Movement : MonoBehaviour
 {
     GameObject Player;
-    public Vector2 position = Vector2.zero;
+    public float rotationSpeed;
+    public float speed = 5.0f;
+    public float acceleration;
     public Vector2 velocity = Vector2.zero;
-    float speed = 5.0f;
+    public Vector2 position = Vector2.zero;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
-    
     {
-
-
         
     }
 
@@ -20,29 +23,36 @@ public class Movement : MonoBehaviour
     {
         float dt = Time.deltaTime;
         position += velocity * dt;
-
+        
         if (Input.GetKey(KeyCode.W))
         {
-            transform.position += Vector3.up * speed * Time.deltaTime;
-
+            if (acceleration < 10f)
+            {
+                acceleration += dt * speed;
+            }
         }
 
         if (Input.GetKey(KeyCode.A))
         {
-            transform.position += Vector3.left * speed * Time.deltaTime;
-
-        }
-
-        if (Input.GetKey(KeyCode.S))
-        {
-            transform.position += Vector3.down * speed * Time.deltaTime;
-
+            this.transform.Rotate(0, 0, transform.position.z + rotationSpeed * dt);
         }
 
         if (Input.GetKey(KeyCode.D))
         {
-            transform.position += Vector3.right * speed * Time.deltaTime;
+            this.transform.Rotate(0, 0, transform.position.z - rotationSpeed * dt);
+        }
 
+        velocity = new Vector3(Mathf.Cos(transform.rotation.eulerAngles.z * Mathf.Deg2Rad) * acceleration, Mathf.Sin(transform.rotation.eulerAngles.z * Mathf.Deg2Rad) * acceleration);
+
+        transform.position = new Vector3(transform.position.x + velocity.x * dt, transform.position.y + velocity.y * dt);
+
+        if (acceleration > 0)
+        {
+            acceleration -= dt;
+        }
+        if (acceleration < 0)
+        {
+            acceleration = 0;
         }
     }
 }
