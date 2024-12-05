@@ -11,7 +11,7 @@ public class Movement : MonoBehaviour
     public float acceleration;
     public Vector2 velocity = Vector2.zero;
     public Vector2 position = Vector2.zero;
-    
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
