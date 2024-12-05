@@ -7,4 +7,18 @@ public class Scenechange : MonoBehaviour
     {
         SceneManager.LoadScene(scenenumber);
     }
+
+    public void Resume()
+    {
+        SceneManager.LoadScene("Game");
+    }
+
+    public void Update()
+    {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("Pause");
+        }
+    }
+        
 }
