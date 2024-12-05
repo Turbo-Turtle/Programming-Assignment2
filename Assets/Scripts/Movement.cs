@@ -48,7 +48,7 @@ public class Movement : MonoBehaviour
 
         if (acceleration > 0)
         {
-            acceleration -= dt;
+            acceleration -= dt * speed/2;
         }
         if (acceleration < 0)
         {
