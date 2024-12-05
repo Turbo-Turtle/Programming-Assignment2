@@ -8,9 +8,10 @@ public class Movement : MonoBehaviour
 {
     GameObject Player;
     public float rotationSpeed;
+    public Vector2 angle;
     public float speed = 5.0f;
-    public float acceleration;
-    public Vector2 velocity = Vector2.zero;
+    public Vector2 acceleration;
+    //public Vector2 velocity = Vector2.zero;
     public Vector2 position = Vector2.zero;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -23,13 +24,29 @@ public class Movement : MonoBehaviour
     void Update()
     {
         float dt = Time.deltaTime;
-        position += velocity * dt;
+        //position += velocity * dt;
         
         if (Input.GetKey(KeyCode.W))
         {
-            if (acceleration < 10f)
+            angle.x = Mathf.Cos(transform.rotation.eulerAngles.z * Mathf.Deg2Rad);
+            angle.y = Mathf.Sin(transform.rotation.eulerAngles.z * Mathf.Deg2Rad);
+            acceleration.x += angle.x * dt * speed;
+            acceleration.y += angle.y * dt * speed;
+            if (acceleration.x >= 10f)
             {
-                acceleration += dt * speed;
+                acceleration.x = 10f;
+            }
+            if (acceleration.x <= -10f)
+            {
+                acceleration.x = -10f;
+            }
+            if (acceleration.y >= 10f)
+            {
+                acceleration.y = 10f;
+            }
+            if (acceleration.y <= -10f)
+            {
+                acceleration.y = -10f;
             }
         }
 
@@ -43,17 +60,23 @@ public class Movement : MonoBehaviour
             this.transform.Rotate(0, 0, transform.position.z - rotationSpeed * dt);
         }
 
-        velocity = new Vector3(Mathf.Cos(transform.rotation.eulerAngles.z * Mathf.Deg2Rad) * acceleration, Mathf.Sin(transform.rotation.eulerAngles.z * Mathf.Deg2Rad) * acceleration);
+        transform.position = new Vector3(transform.position.x + acceleration.x * dt, transform.position.y + acceleration.y * dt);
 
-        transform.position = new Vector3(transform.position.x + velocity.x * dt, transform.position.y + velocity.y * dt);
-
-        if (acceleration > 0)
+        if (acceleration.x > 0)
         {
-            acceleration -= dt * speed/2;
+            acceleration.x -= dt * speed/2;
         }
-        if (acceleration < 0)
+        if (acceleration.x < 0)
         {
-            acceleration = 0;
+            acceleration.x += dt *speed/2;
+        }
+        if (acceleration.y > 0)
+        {
+            acceleration.y -= dt * speed/2;
+        }
+        if (acceleration.y < 0)
+        {
+            acceleration.y += dt *speed/2;
         }
     }
 }
