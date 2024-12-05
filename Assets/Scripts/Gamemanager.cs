@@ -5,10 +5,9 @@ public class Gamemanager : MonoBehaviour
 
 {
     public GameObject[] Asteroid;
-    void Start()
+    public void Start()
     {
         //SceneManager.LoadScene("Menu"); 
-        //commenting above out for now because it's causing issues
     }
     void Update()
     {
