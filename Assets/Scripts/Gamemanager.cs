@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class Gamemanager : MonoBehaviour
 
 {
-    public GameObject Asteroid;
+    public GameObject[] Asteroid;
     void Start()
     {
         //SceneManager.LoadScene("Menu"); 
@@ -12,26 +12,17 @@ public class Gamemanager : MonoBehaviour
     }
     void Update()
     {
-        Asteroid = GameObject.FindWithTag("enemy");
-
-        if (Asteroid = null)
+        if (GameObject.FindWithTag("enemy") == null)
         {
-            // this is placeholder mostly, still trying to figure this out.
-            Instantiate(Asteroid);
-            transform.position = new Vector2(0.0f, 0.0f);
-            
-            //if (Asteroid > 5)
+        for (int i = 0; i < Asteroid.Length; i++)
             {
-                
-
-
+                if (Asteroid[i] != null)
+                {
+                    Asteroid[i].SetActive(true);
+                    Asteroid[i].transform.position = new Vector2(Random.Range(-9, 9), Random.Range(-5, 5));
+                }
             }
         }
-        else if (Asteroid != null)
-        {
-
-
-        }
-       
+        
     }
 }
