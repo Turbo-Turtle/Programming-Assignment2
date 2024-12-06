@@ -23,8 +23,11 @@ public class Attack : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of bb6ff89 (added fireing)
+=======
+>>>>>>> parent of 2bf55ae (added fireing)
 <<<<<<< Updated upstream
             //bullet[i].fired(); commented this out temporarily, the "fired" portion was causing an error
 =======
@@ -34,11 +37,14 @@ public class Attack : MonoBehaviour
 =======
             bullet[i].fired();
 >>>>>>> parent of 9cc6374 (Teleport & more audio implementation)
+<<<<<<< HEAD
 =======
             bullet[i].fired();
 >>>>>>> parent of 9cc6374 (Teleport & more audio implementation)
 =======
 >>>>>>> parent of bb6ff89 (added fireing)
+=======
+>>>>>>> parent of 2bf55ae (added fireing)
             i++;
             curDelay = absDelay;
         }

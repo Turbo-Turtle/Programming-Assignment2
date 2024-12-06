@@ -1283,8 +1283,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of bb6ff89 (added fireing)
+=======
+>>>>>>> parent of 2bf55ae (added fireing)
   Teleport: {fileID: 469079073}
   Fire: {fileID: 717786882}
 --- !u!1 &717786881
@@ -1421,10 +1424,13 @@ Transform:
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 9cc6374 (Teleport & more audio implementation)
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 9cc6374 (Teleport & more audio implementation)
 =======
 >>>>>>> parent of bb6ff89 (added fireing)
+=======
+>>>>>>> parent of 2bf55ae (added fireing)
 --- !u!1001 &718589105
 PrefabInstance:
   m_ObjectHideFlags: 0
