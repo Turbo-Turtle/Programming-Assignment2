@@ -21,11 +21,15 @@ public class Attack : MonoBehaviour
             bullet[i].SetActive(true);
             bullet[i].transform.position = transform.position;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
             //bullet[i].fired(); commented this out temporarily, the "fired" portion was causing an error
 =======
             bullet[i].GetComponent<BulletMovement>().fired(Movement.angle);
 >>>>>>> Stashed changes
+=======
+            bullet[i].fired();
+>>>>>>> parent of 9cc6374 (Teleport & more audio implementation)
 =======
             bullet[i].fired();
 >>>>>>> parent of 9cc6374 (Teleport & more audio implementation)
