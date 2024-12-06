@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Teleport : MonoBehaviour
 {
+
+    public AudioSource TeleportA;
+    public float absCooldown;
+    private float curCooldown;
     public GameObject ExitPort;
     public GameObject Player;
     public GameObject PlayerPrefab;
@@ -12,10 +16,14 @@ public class Teleport : MonoBehaviour
     // Update is called once per frame
     public void Update()
     {
-        if (Input.GetKey(KeyCode.Q))
+        float dt = Time.deltaTime;
+        if (Input.GetKey(KeyCode.Q) && curCooldown < 0)
         {
             Player.transform.position = ExitPort.transform.position;
             PlayerPrefab.transform.position = ExitPort.transform.position;
+            TeleportA.Play();
+            curCooldown = absCooldown;
         }
+        curCooldown -= dt;
     }
 }

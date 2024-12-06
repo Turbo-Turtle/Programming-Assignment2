@@ -392,7 +392,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 89c154d7cc57afa4180ad0a7461397f9, type: 3}
   m_Resource: {fileID: 8300000, guid: 89c154d7cc57afa4180ad0a7461397f9, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3250,7 +3250,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ExitPort: {fileID: 1967104509}
-  Player: {fileID: 0}
+  Player: {fileID: 204596099}
   PlayerPrefab: {fileID: 204596099}
 --- !u!114 &1967104512
 MonoBehaviour:

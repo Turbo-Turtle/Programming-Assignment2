@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class Attack : MonoBehaviour
 {
+
+    public AudioSource Fire;
     public GameObject[] bullet;
     public Movement Movement;
     public float absDelay;
@@ -22,11 +24,12 @@ public class Attack : MonoBehaviour
             bullet[i].transform.position = transform.position;
             bullet[i].GetComponent<BulletMovement>().fired(Movement.angle);
             i++;
+            if (i > 4)
+            {
+                i = 0;
+            }
             curDelay = absDelay;
-        }
-        if (i > 4)
-        {
-            i = 0;
+            Fire.Play();
         }
         curDelay -= dt;
     }

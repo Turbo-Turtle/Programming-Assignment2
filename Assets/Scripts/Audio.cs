@@ -3,8 +3,9 @@ using UnityEngine;
 public class Audio : MonoBehaviour
 {
     public AudioSource Engines;
-    public AudioSource Teleport;
-    public AudioSource Fire;
+    public float absEngDuration = 0.567f;
+    private float curEngDuration;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -14,29 +15,25 @@ public class Audio : MonoBehaviour
     void Update()
         // this sucks, I will need to fix this later
     {
-        if (Input.GetKey(KeyCode.W))
-        {
-         Engines.Play();
-        }
-
-        if (Input.GetKey(KeyCode.A))
+        float dt = Time.deltaTime;
+        if (Input.GetKey(KeyCode.W) && curEngDuration < 0)
         {
             Engines.Play();
+            curEngDuration = absEngDuration;
         }
 
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.A) && curEngDuration < 0)
         {
             Engines.Play();
+            curEngDuration = absEngDuration;
         }
 
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKey(KeyCode.D) && curEngDuration < 0)
         {
-            Teleport.Play();
+            Engines.Play();
+            curEngDuration = absEngDuration;
         }
 
-        if (Input.GetKey(KeyCode.Space))
-        {
-            Fire.Play();
-        }
+        curEngDuration -= dt;
     }
 }
