@@ -20,11 +20,9 @@ public class Attack : MonoBehaviour
         {
             bullet[i].SetActive(true);
             bullet[i].transform.position = transform.position;
-<<<<<<< Updated upstream
-            //bullet[i].fired(); commented this out temporarily, the "fired" portion was causing an error
-=======
+
             bullet[i].GetComponent<BulletMovement>().fired(Movement.angle);
->>>>>>> Stashed changes
+
             i++;
             curDelay = absDelay;
         }
