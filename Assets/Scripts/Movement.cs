@@ -10,7 +10,6 @@ public class Movement : MonoBehaviour
     public Vector2 angle;
     public float speed = 5.0f;
     public Vector2 acceleration;
-    //public Vector2 velocity = Vector2.zero;
     public Vector2 position = Vector2.zero;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -23,7 +22,6 @@ public class Movement : MonoBehaviour
     void Update()
     {
         float dt = Time.deltaTime;
-        //position += velocity * dt;
         
         if (Input.GetKey(KeyCode.W))
         {
