@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5336414945990614067}
   - component: {fileID: 1607591895652355921}
   - component: {fileID: 5495253011576194460}
+  - component: {fileID: 6834442147662098206}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: enemy
@@ -147,5 +148,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e49891afdcc39ac44aac1b731090b01e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  absLifeTime: 1.5
+  speed: 10
   angle: {x: 0, y: 0}
+  Velocity: {x: 0, y: 0}
   Player: {fileID: 3625225208179019817, guid: 63dcf3d2605b7864fbbcba02117c06e4, type: 3}
+  isEnabled: 0
+--- !u!114 &6834442147662098206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5079896988154242586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aab204f506a5244ba01f24eb87736e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
