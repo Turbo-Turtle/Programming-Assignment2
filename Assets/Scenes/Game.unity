@@ -3249,6 +3249,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7014cf6584e4cf645bd823b6af6cc86a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TeleportA: {fileID: 469079073}
+  absCooldown: 3
   ExitPort: {fileID: 1967104509}
   Player: {fileID: 204596099}
   PlayerPrefab: {fileID: 204596099}
@@ -3897,6 +3899,10 @@ PrefabInstance:
       propertyPath: Teleport
       value: 
       objectReference: {fileID: 469079073}
+    - target: {fileID: 2689164829911157004, guid: 63dcf3d2605b7864fbbcba02117c06e4, type: 3}
+      propertyPath: Fire
+      value: 
+      objectReference: {fileID: 717786882}
     - target: {fileID: 2689164829911157004, guid: 63dcf3d2605b7864fbbcba02117c06e4, type: 3}
       propertyPath: 'bullet.Array.data[0]'
       value: 
