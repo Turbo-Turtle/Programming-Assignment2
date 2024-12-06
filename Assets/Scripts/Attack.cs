@@ -20,9 +20,8 @@ public class Attack : MonoBehaviour
         {
             bullet[i].SetActive(true);
             bullet[i].transform.position = transform.position;
-
             bullet[i].GetComponent<BulletMovement>().fired(Movement.angle);
-
+            bullet[i].fired();
             i++;
             curDelay = absDelay;
         }
