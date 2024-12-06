@@ -13,6 +13,11 @@ public class Scenechange : MonoBehaviour
         SceneManager.LoadScene("Game");
     }
 
+    public void Quit()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+
     public void Update()
     {
         if (Input.GetKey(KeyCode.Escape))
