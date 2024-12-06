@@ -3,6 +3,8 @@ using UnityEngine;
 public class Audio : MonoBehaviour
 {
     public AudioSource Engines;
+    public AudioSource Teleport;
+    public AudioSource Fire;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -14,29 +16,27 @@ public class Audio : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
-            if (Engines = null)
-            {
-                Engines.Play();
-
-            }
+         Engines.Play();
         }
 
         if (Input.GetKey(KeyCode.A))
         {
-            if (Engines = null)
-            {
-                Engines.Play();
-
-            }
+            Engines.Play();
         }
 
         if (Input.GetKey(KeyCode.D))
         {
-            if (Engines = null)
-            {
-                Engines.Play();
+            Engines.Play();
+        }
 
-            }
+        if (Input.GetKey(KeyCode.Q))
+        {
+            Teleport.Play();
+        }
+
+        if (Input.GetKey(KeyCode.Space))
+        {
+            Fire.Play();
         }
     }
 }

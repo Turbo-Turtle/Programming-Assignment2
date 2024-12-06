@@ -16,7 +16,7 @@ public class Attack : MonoBehaviour
         {
             bullet[i].SetActive(true);
             bullet[i].transform.position = transform.position;
-            bullet[i].fired();
+            //bullet[i].fired(); commented this out temporarily, the "fired" portion was causing an error
             i++;
         }
         if (i > 4)
