@@ -484,8 +484,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 276413974}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.880754, y: -2.6716323, z: 0.03607022}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1133,7 +1133,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4697425657994913994, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
   m_PrefabInstance: {fileID: 525443493}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
 --- !u!1 &603724702
 GameObject:
   m_ObjectHideFlags: 0
@@ -1411,8 +1410,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 748672363}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> Stashed changes
 --- !u!1001 &718589105
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1567,7 +1564,7 @@ Transform:
   m_GameObject: {fileID: 748672362}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.880754, y: 2.6716323, z: -0.03607022}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4024,10 +4021,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -5238393915825357828, guid: 63dcf3d2605b7864fbbcba02117c06e4, type: 3}
-      propertyPath: Engines
-      value: 
-      objectReference: {fileID: 1040873689}
     - target: {fileID: 2689164829911157004, guid: 63dcf3d2605b7864fbbcba02117c06e4, type: 3}
       propertyPath: 'bullet.Array.data[0]'
       value: 

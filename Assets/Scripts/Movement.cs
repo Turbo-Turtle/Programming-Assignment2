@@ -24,9 +24,10 @@ public class Movement : MonoBehaviour
     {
         float dt = Time.deltaTime;
         
-        //Accelerates the player
         if (Input.GetKey(KeyCode.W))
         {
+            angle.x = Mathf.Cos(transform.rotation.eulerAngles.z * Mathf.Deg2Rad);
+            angle.y = Mathf.Sin(transform.rotation.eulerAngles.z * Mathf.Deg2Rad);
             acceleration.x += angle.x * dt * speed;
             acceleration.y += angle.y * dt * speed;
             if (acceleration.x >= 10f)
@@ -47,7 +48,6 @@ public class Movement : MonoBehaviour
             }
         }
 
-        //Changes rotation
         if (Input.GetKey(KeyCode.A))
         {
             this.transform.Rotate(0, 0, transform.position.z + rotationSpeed * dt);
@@ -57,9 +57,7 @@ public class Movement : MonoBehaviour
         {
             this.transform.Rotate(0, 0, transform.position.z - rotationSpeed * dt);
         }
-        //Changes the angle and moves the player
-        angle.x = Mathf.Cos(transform.rotation.eulerAngles.z * Mathf.Deg2Rad);
-        angle.y = Mathf.Sin(transform.rotation.eulerAngles.z * Mathf.Deg2Rad);
+
         transform.position = new Vector3(transform.position.x + acceleration.x * dt, transform.position.y + acceleration.y * dt);
 
         if (acceleration.x > 0)
