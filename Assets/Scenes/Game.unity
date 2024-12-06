@@ -3873,6 +3873,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5238393915825357828, guid: 63dcf3d2605b7864fbbcba02117c06e4, type: 3}
+      propertyPath: Fire
+      value: 
+      objectReference: {fileID: 717786882}
+    - target: {fileID: -5238393915825357828, guid: 63dcf3d2605b7864fbbcba02117c06e4, type: 3}
+      propertyPath: Engines
+      value: 
+      objectReference: {fileID: 1040873689}
+    - target: {fileID: -5238393915825357828, guid: 63dcf3d2605b7864fbbcba02117c06e4, type: 3}
+      propertyPath: Teleport
+      value: 
+      objectReference: {fileID: 469079073}
     - target: {fileID: -2061537098336542617, guid: 63dcf3d2605b7864fbbcba02117c06e4, type: 3}
       propertyPath: Fire
       value: 
