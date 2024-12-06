@@ -16,7 +16,12 @@ public class Attack : MonoBehaviour
         {
             bullet[i].SetActive(true);
             bullet[i].transform.position = transform.position;
+            bullet[i].fired();
             i++;
+        }
+        if (i > 4)
+        {
+            i = 0;
         }
     }
 }
