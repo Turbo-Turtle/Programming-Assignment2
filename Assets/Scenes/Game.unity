@@ -225,6 +225,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4697425657994913994, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
   m_PrefabInstance: {fileID: 26343780}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &43770198 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+  m_PrefabInstance: {fileID: 1548455338}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &124003463
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -233,6 +238,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2687722}
     m_Modifications:
+    - target: {fileID: -2366883947675599598, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+      propertyPath: medAsteroid1
+      value: 
+      objectReference: {fileID: 676330821}
+    - target: {fileID: -2366883947675599598, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+      propertyPath: medAsteroid2
+      value: 
+      objectReference: {fileID: 423403667}
     - target: {fileID: 4697425657994913994, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -567,6 +580,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4697425657994913994, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
   m_PrefabInstance: {fileID: 314520411}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &384432774 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
+  m_PrefabInstance: {fileID: 1792554151}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &403224346 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
@@ -643,6 +661,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4697425657994913994, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
   m_PrefabInstance: {fileID: 407776063}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &423403667 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
+  m_PrefabInstance: {fileID: 1370536522}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &432837156
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -713,6 +736,21 @@ Transform:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: d56f8d53e85bdab4ab0995aeb1b350a2, type: 3}
   m_PrefabInstance: {fileID: 1603170659}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &444545372 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
+  m_PrefabInstance: {fileID: 1707595362}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &451245293 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
+  m_PrefabInstance: {fileID: 2075594600}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &454126428 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
+  m_PrefabInstance: {fileID: 1258978861}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &469079072
 GameObject:
@@ -851,6 +889,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2687722}
     m_Modifications:
+    - target: {fileID: -2366883947675599598, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+      propertyPath: medAsteroid1
+      value: 
+      objectReference: {fileID: 768721086}
+    - target: {fileID: -2366883947675599598, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+      propertyPath: medAsteroid2
+      value: 
+      objectReference: {fileID: 444545372}
     - target: {fileID: 4697425657994913994, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1133,6 +1179,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4697425657994913994, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
   m_PrefabInstance: {fileID: 525443493}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &639515071 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
+  m_PrefabInstance: {fileID: 2023161040}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &676330821 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
+  m_PrefabInstance: {fileID: 314520411}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &717786881
 GameObject:
   m_ObjectHideFlags: 0
@@ -1270,6 +1326,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2687722}
     m_Modifications:
+    - target: {fileID: -2366883947675599598, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+      propertyPath: medAsteroid1
+      value: 
+      objectReference: {fileID: 788726622}
+    - target: {fileID: -2366883947675599598, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+      propertyPath: medAsteroid2
+      value: 
+      objectReference: {fileID: 1994914510}
     - target: {fileID: 4697425657994913994, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1426,6 +1490,16 @@ Transform:
   - {fileID: 717786883}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &753052608 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+  m_PrefabInstance: {fileID: 1356057941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &768721086 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
+  m_PrefabInstance: {fileID: 432837156}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &785401878
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1434,6 +1508,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1778481631}
     m_Modifications:
+    - target: {fileID: 1228744152051155746, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
+      propertyPath: medAsteroid1
+      value: 
+      objectReference: {fileID: 1907261019}
+    - target: {fileID: 1228744152051155746, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
+      propertyPath: medAsteroid2
+      value: 
+      objectReference: {fileID: 753052608}
     - target: {fileID: 4697425657994913994, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1482,11 +1564,24 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9187382351224085684, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
+      propertyPath: medAsteroid1
+      value: 
+      objectReference: {fileID: 1907261019}
+    - target: {fileID: 9187382351224085684, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
+      propertyPath: medAsteroid2
+      value: 
+      objectReference: {fileID: 753052608}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
+--- !u!1 &788726622 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
+  m_PrefabInstance: {fileID: 902379457}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &789836736
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1558,6 +1653,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: d56f8d53e85bdab4ab0995aeb1b350a2, type: 3}
   m_PrefabInstance: {fileID: 1947455721}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &888178418 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
+  m_PrefabInstance: {fileID: 525443493}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &902379457
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1623,6 +1723,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4697425657994913994, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
   m_PrefabInstance: {fileID: 902379457}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &940849307 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
+  m_PrefabInstance: {fileID: 173853751}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1031358715 stripped
 GameObject:
@@ -1834,6 +1939,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4697425657994913994, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
   m_PrefabInstance: {fileID: 1415424746}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1111123239 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+  m_PrefabInstance: {fileID: 2051333117}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1205871506 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
@@ -1852,6 +1962,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1778481631}
     m_Modifications:
+    - target: {fileID: 1228744152051155746, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
+      propertyPath: medAsteroid1
+      value: 
+      objectReference: {fileID: 43770198}
+    - target: {fileID: 1228744152051155746, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
+      propertyPath: medAsteroid2
+      value: 
+      objectReference: {fileID: 1840275648}
     - target: {fileID: 4697425657994913994, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1900,11 +2018,24 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9187382351224085684, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
+      propertyPath: medAsteroid1
+      value: 
+      objectReference: {fileID: 43770198}
+    - target: {fileID: 9187382351224085684, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
+      propertyPath: medAsteroid2
+      value: 
+      objectReference: {fileID: 1840275648}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
+--- !u!1 &1211404127 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
+  m_PrefabInstance: {fileID: 1273438329}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1258978861
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2055,6 +2186,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2687722}
     m_Modifications:
+    - target: {fileID: -2366883947675599598, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+      propertyPath: medAsteroid1
+      value: 
+      objectReference: {fileID: 384432774}
+    - target: {fileID: -2366883947675599598, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+      propertyPath: medAsteroid2
+      value: 
+      objectReference: {fileID: 2051788007}
     - target: {fileID: 4697425657994913994, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2121,6 +2260,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2687722}
     m_Modifications:
+    - target: {fileID: -2366883947675599598, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+      propertyPath: medAsteroid1
+      value: 
+      objectReference: {fileID: 1661133052}
+    - target: {fileID: -2366883947675599598, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+      propertyPath: medAsteroid2
+      value: 
+      objectReference: {fileID: 888178418}
     - target: {fileID: 4697425657994913994, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2253,6 +2400,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2687722}
     m_Modifications:
+    - target: {fileID: -2366883947675599598, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+      propertyPath: medAsteroid1
+      value: 
+      objectReference: {fileID: 451245293}
+    - target: {fileID: -2366883947675599598, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+      propertyPath: medAsteroid2
+      value: 
+      objectReference: {fileID: 1990341898}
     - target: {fileID: 4697425657994913994, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2311,6 +2466,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4697425657994913994, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
   m_PrefabInstance: {fileID: 1377768532}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1391405184 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
+  m_PrefabInstance: {fileID: 2002886585}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1391438938
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2319,6 +2479,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1778481631}
     m_Modifications:
+    - target: {fileID: 1228744152051155746, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
+      propertyPath: medAsteroid1
+      value: 
+      objectReference: {fileID: 1457219391}
+    - target: {fileID: 1228744152051155746, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
+      propertyPath: medAsteroid2
+      value: 
+      objectReference: {fileID: 1418037074}
     - target: {fileID: 4697425657994913994, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2367,11 +2535,24 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9187382351224085684, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
+      propertyPath: medAsteroid1
+      value: 
+      objectReference: {fileID: 1457219391}
+    - target: {fileID: 9187382351224085684, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
+      propertyPath: medAsteroid2
+      value: 
+      objectReference: {fileID: 1418037074}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
+--- !u!1 &1393006712 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
+  m_PrefabInstance: {fileID: 26343780}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1415424746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2380,6 +2561,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1778481631}
     m_Modifications:
+    - target: {fileID: 1228744152051155746, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
+      propertyPath: medAsteroid1
+      value: 
+      objectReference: {fileID: 1111123239}
+    - target: {fileID: 1228744152051155746, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
+      propertyPath: medAsteroid2
+      value: 
+      objectReference: {fileID: 1632472448}
     - target: {fileID: 4697425657994913994, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2428,11 +2617,24 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9187382351224085684, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
+      propertyPath: medAsteroid1
+      value: 
+      objectReference: {fileID: 1111123239}
+    - target: {fileID: 9187382351224085684, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
+      propertyPath: medAsteroid2
+      value: 
+      objectReference: {fileID: 1632472448}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
+--- !u!1 &1418037074 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+  m_PrefabInstance: {fileID: 1680020955}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1425388659
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2441,6 +2643,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1778481631}
     m_Modifications:
+    - target: {fileID: 1228744152051155746, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
+      propertyPath: medAsteroid1
+      value: 
+      objectReference: {fileID: 1837145481}
+    - target: {fileID: 1228744152051155746, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
+      propertyPath: medAsteroid2
+      value: 
+      objectReference: {fileID: 2088950883}
     - target: {fileID: 4697425657994913994, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2489,11 +2699,24 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9187382351224085684, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
+      propertyPath: medAsteroid1
+      value: 
+      objectReference: {fileID: 1837145481}
+    - target: {fileID: 9187382351224085684, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
+      propertyPath: medAsteroid2
+      value: 
+      objectReference: {fileID: 2088950883}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b852c6bcb88ea524bb74eff3cc791e09, type: 3}
+--- !u!1 &1457219391 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+  m_PrefabInstance: {fileID: 500097419}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1469999505
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2634,6 +2857,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2687722}
     m_Modifications:
+    - target: {fileID: -2366883947675599598, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+      propertyPath: medAsteroid1
+      value: 
+      objectReference: {fileID: 2127679526}
+    - target: {fileID: -2366883947675599598, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+      propertyPath: medAsteroid2
+      value: 
+      objectReference: {fileID: 454126428}
     - target: {fileID: 4697425657994913994, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2768,6 +2999,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4697425657994913994, guid: d56f8d53e85bdab4ab0995aeb1b350a2, type: 3}
   m_PrefabInstance: {fileID: 1603170659}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1632472448 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+  m_PrefabInstance: {fileID: 124003463}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1661133052 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
+  m_PrefabInstance: {fileID: 1948220671}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1680020955
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2776,6 +3017,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2687722}
     m_Modifications:
+    - target: {fileID: -2366883947675599598, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+      propertyPath: medAsteroid1
+      value: 
+      objectReference: {fileID: 1393006712}
+    - target: {fileID: -2366883947675599598, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+      propertyPath: medAsteroid2
+      value: 
+      objectReference: {fileID: 2022114496}
     - target: {fileID: 4697425657994913994, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3036,6 +3285,16 @@ Transform:
   - {fileID: 2094550373}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1837145481 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+  m_PrefabInstance: {fileID: 718589105}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1840275648 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+  m_PrefabInstance: {fileID: 1377768532}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1894098573
 GameObject:
   m_ObjectHideFlags: 0
@@ -3072,6 +3331,11 @@ Transform:
   - {fileID: 1535716620}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1907261019 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+  m_PrefabInstance: {fileID: 1349856312}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1947455721
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3341,6 +3605,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2687722}
     m_Modifications:
+    - target: {fileID: -2366883947675599598, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+      propertyPath: medAsteroid1
+      value: 
+      objectReference: {fileID: 1391405184}
+    - target: {fileID: -2366883947675599598, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+      propertyPath: medAsteroid2
+      value: 
+      objectReference: {fileID: 639515071}
     - target: {fileID: 4697425657994913994, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3398,6 +3670,16 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4697425657994913994, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
   m_PrefabInstance: {fileID: 1989376685}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1990341898 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
+  m_PrefabInstance: {fileID: 1469999505}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1994914510 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
+  m_PrefabInstance: {fileID: 513754553}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2002886585
 PrefabInstance:
@@ -3464,6 +3746,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4697425657994913994, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
   m_PrefabInstance: {fileID: 2002886585}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2022114496 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
+  m_PrefabInstance: {fileID: 2062958036}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2023161040
 PrefabInstance:
@@ -3626,6 +3913,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2687722}
     m_Modifications:
+    - target: {fileID: -2366883947675599598, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+      propertyPath: medAsteroid1
+      value: 
+      objectReference: {fileID: 1211404127}
+    - target: {fileID: -2366883947675599598, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+      propertyPath: medAsteroid2
+      value: 
+      objectReference: {fileID: 940849307}
     - target: {fileID: 4697425657994913994, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3683,6 +3978,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4697425657994913994, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
   m_PrefabInstance: {fileID: 2051333117}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2051788007 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
+  m_PrefabInstance: {fileID: 407776063}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2062958036
 PrefabInstance:
@@ -3816,6 +4116,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4697425657994913994, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
   m_PrefabInstance: {fileID: 2075594600}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2088950883 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 8c4a83c95e222b54d81bab5784912fed, type: 3}
+  m_PrefabInstance: {fileID: 1989376685}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2094550372
 GameObject:
   m_ObjectHideFlags: 0
@@ -3867,6 +4172,11 @@ Transform:
   - {fileID: 1469999506}
   m_Father: {fileID: 1801213464}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2127679526 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5079896988154242586, guid: 9ccf624340a79544aadbf62f1102c122, type: 3}
+  m_PrefabInstance: {fileID: 1975949186}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3533296074499974069
 PrefabInstance:
   m_ObjectHideFlags: 0
