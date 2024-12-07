@@ -19,6 +19,7 @@ public class Gamemanager : MonoBehaviour
                 {
                     Asteroid[i].SetActive(true);
                     Asteroid[i].transform.position = new Vector2(Random.Range(-9, 9), Random.Range(-5, 5));
+                    Asteroid[i].GetComponent<AsteroidMovement>().spawn();
                 }
             }
         }

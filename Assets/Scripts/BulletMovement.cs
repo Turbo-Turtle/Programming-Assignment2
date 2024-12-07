@@ -35,8 +35,4 @@ public class BulletMovement : MonoBehaviour
             this.gameObject.SetActive(false);
         }
     }
-    //void OnTriggerEnter2D(Collider2D collision2D)
-    //{
-
-    //}
 }
