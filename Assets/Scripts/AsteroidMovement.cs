@@ -15,6 +15,6 @@ public class AsteroidMovement : MonoBehaviour
     {
         float dt = Time.deltaTime;
         transform.position = new Vector2(transform.position.x + Velocity.x * dt, transform.position.y + Velocity.y * dt);
-
+        transform.Rotate(0, 0, 75 * dt);
     }
 }
