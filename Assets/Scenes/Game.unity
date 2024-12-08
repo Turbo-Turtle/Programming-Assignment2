@@ -375,58 +375,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3625225208179019817, guid: 63dcf3d2605b7864fbbcba02117c06e4, type: 3}
   m_PrefabInstance: {fileID: 3533296074499974069}
   m_PrefabAsset: {fileID: 0}
---- !u!58 &204596107
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 204596099}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 0.2
---- !u!114 &204596108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 204596099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 065fcb894725e2c4aab44bdf653a1b8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 204596099}
-  Respawn: {fileID: 1406243103}
-  Explosion: {fileID: 1865416700}
-  absExpDuration: 0.731
 --- !u!1 &276413974
 GameObject:
   m_ObjectHideFlags: 0
@@ -4399,29 +4347,9 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -5238393915825357828, guid: 63dcf3d2605b7864fbbcba02117c06e4, type: 3}
-      propertyPath: Fire
-      value: 
-      objectReference: {fileID: 717786882}
-    - target: {fileID: -5238393915825357828, guid: 63dcf3d2605b7864fbbcba02117c06e4, type: 3}
       propertyPath: Engines
       value: 
       objectReference: {fileID: 1040873689}
-    - target: {fileID: -5238393915825357828, guid: 63dcf3d2605b7864fbbcba02117c06e4, type: 3}
-      propertyPath: Teleport
-      value: 
-      objectReference: {fileID: 469079073}
-    - target: {fileID: -2061537098336542617, guid: 63dcf3d2605b7864fbbcba02117c06e4, type: 3}
-      propertyPath: Fire
-      value: 
-      objectReference: {fileID: 717786882}
-    - target: {fileID: -2061537098336542617, guid: 63dcf3d2605b7864fbbcba02117c06e4, type: 3}
-      propertyPath: Engines
-      value: 
-      objectReference: {fileID: 1040873689}
-    - target: {fileID: -2061537098336542617, guid: 63dcf3d2605b7864fbbcba02117c06e4, type: 3}
-      propertyPath: Teleport
-      value: 
-      objectReference: {fileID: 469079073}
     - target: {fileID: 2689164829911157004, guid: 63dcf3d2605b7864fbbcba02117c06e4, type: 3}
       propertyPath: Fire
       value: 
@@ -4446,6 +4374,14 @@ PrefabInstance:
       propertyPath: 'bullet.Array.data[4]'
       value: 
       objectReference: {fileID: 1293386867}
+    - target: {fileID: 3436038675507977829, guid: 63dcf3d2605b7864fbbcba02117c06e4, type: 3}
+      propertyPath: Respawn
+      value: 
+      objectReference: {fileID: 1406243103}
+    - target: {fileID: 3436038675507977829, guid: 63dcf3d2605b7864fbbcba02117c06e4, type: 3}
+      propertyPath: Explosion
+      value: 
+      objectReference: {fileID: 1865416700}
     - target: {fileID: 3625225208179019817, guid: 63dcf3d2605b7864fbbcba02117c06e4, type: 3}
       propertyPath: m_Name
       value: Player
@@ -4493,13 +4429,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3625225208179019817, guid: 63dcf3d2605b7864fbbcba02117c06e4, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 204596107}
-    - targetCorrespondingSourceObject: {fileID: 3625225208179019817, guid: 63dcf3d2605b7864fbbcba02117c06e4, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 204596108}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63dcf3d2605b7864fbbcba02117c06e4, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
